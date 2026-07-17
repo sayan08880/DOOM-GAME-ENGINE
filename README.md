@@ -28,7 +28,7 @@
 ## Gameplay
 
 <p align="center">
-  <img src="docs/DOOM01.gif" alt="Gameplay Demo" width="820">
+  <img src="docs/DOOM01.gif" alt="Gameplay Demo" width="500">
 </p>
 
 ### Fullscreen Mode
