@@ -2,7 +2,7 @@
 
 > A lightweight web-based DOOM engine that runs directly in the browser using WebAssembly and JavaScript.
 
-![Banner](docs/banner.png)
+![Banner](docs/DOOM03.png)
 
 ---
 
