@@ -26,11 +26,12 @@
 
 ### Gameplay
 
-![](docs/DOOM01.gif)
+![Gameplay](docs/DOOM01.mp4)
 
 ### Fullscreen Mode
 
 ![](docs/DOOM04.png)
+
 ---
 
 ## 🏗️ Project Structure
