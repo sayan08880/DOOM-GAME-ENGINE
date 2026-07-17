@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DOOM WEB ENGINE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">DOOM WEB ENGINE</div>
+      <div class="status-bar">
+        <span id="keyboard-status" class="status-item">⌨️ Active</span>
+        <span id="mouse-status" class="status-item">🖱️ Ready</span>
+        <span id="fps" class="status-item">FPS: --</span>
+      </div>
+      <button id="fullscreenBtn" class="btn">Fullscreen</button>
+    </header>
+
+    <div class="main-container">
+      <!-- LEFT -->
+      <div class="side-panel">
+        <div class="panel-header">CONTROLS</div>
+        <div class="controls-grid">
+          <div>WASD / Arrows : Move</div>
+          <div>Shift : Run</div>
+          <div>Space : Use</div>
+          <div>Ctrl : Fire</div>
+        </div>
+        <div class="panel-header">SYSTEM</div>
+        <div id="cpu-usage" class="stat">CPU: --%</div>
+      </div>
+
+      <!-- CENTER GAME -->
+      <main id="stage" class="game-center">
+        <canvas id="game" width="640" height="400" tabindex="0"></canvas>
+      </main>
+
+      <!-- RIGHT -->
+      <div class="side-panel">
+        <div class="panel-header">LIVE KEYS</div>
+        <div id="active-keys" class="stat live-keys">Click canvas to start</div>
+
+        <div class="panel-header">PERFORMANCE</div>
+        <div id="fps-monitor" class="stat">FPS: --</div>
+      </div>
+    </div>
+
+    <footer class="controls-hint">
+      Click the game canvas to play • ESC to release mouse cursor
+    </footer>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "doom-web-engine",
+  "version": "0.3.0",
+  "description": "Browser-based DOOM Web Engine (fixed input + boot bugs)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
