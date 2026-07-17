@@ -21,22 +21,16 @@
 ## 📸 Screenshots
 
 ### Game Screen
-<p align="center">
-  <img src="docs/DOOM02.png" alt="DOOM Home Screen" width="800">
-</p>
 
-## Gameplay
+![](docs/DOOM02.png)
 
-<p align="center">
-  <img src="docs/DOOM01.gif" alt="Gameplay Demo" width="800">
-</p>
+### Gameplay
 
-## Fullscreen Mode
+![](docs/DOOM01.gif)
 
-<p align="center">
-  <img src="docs/DOOM04.png" alt="Fullscreen Mode" width="800">
-</p>
+### Fullscreen Mode
 
+![](docs/DOOM04.png)
 ---
 
 ## 🏗️ Project Structure
