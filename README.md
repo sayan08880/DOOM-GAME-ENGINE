@@ -30,7 +30,7 @@
 
 ### Fullscreen Mode
 
-![](docs/DOOM04.png)
+![](docs/DOOM4.png)
 
 ---
 
