@@ -24,13 +24,18 @@
 <p align="center">
   <img src="docs/DOOM02.png" alt="DOOM Home Screen" width="800">
 </p>
-### Gameplay
 
-![Gameplay](docs/DOOM01.mp4)
+## Gameplay
 
-### Fullscreen Mode
+<p align="center">
+  <img src="docs/DOOM01.gif" alt="Gameplay Demo" width="800">
+</p>
 
-![Fullscreen](docs/DOOM4.png)
+## Fullscreen Mode
+
+<p align="center">
+  <img src="docs/DOOM04.png" alt="Fullscreen Mode" width="800">
+</p>
 
 ---
 
