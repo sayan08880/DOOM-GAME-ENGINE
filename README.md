@@ -27,7 +27,7 @@
 
 ### Gameplay
 
-![Gameplay](docs/DOOM01.mp4)
+![Gameplay](docs/DOOM01.gif)
 
 ### Fullscreen Mode
 
