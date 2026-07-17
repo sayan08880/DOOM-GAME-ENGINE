@@ -21,9 +21,9 @@
 ## 📸 Screenshots
 
 ### Game Screen
-
+<center>
 ![Home](docs/DOOM02.png)
-
+</center>
 ### Gameplay
 
 ![Gameplay](docs/DOOM01.mp4)
