@@ -24,6 +24,9 @@
 <p align="center">
   <img src="docs/DOOM02.png" alt="DOOM Home Screen" width="800">
 </p>
+<p align="center">
+  <img src="docs/DOOM4.png" alt="DOOM Home Screen" width="800">
+</p>
 
 ## Gameplay
 
