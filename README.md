@@ -1,95 +1,183 @@
+<div align="center">
+
 # 🎮 DOOM Game Engine
 
-> A lightweight web-based DOOM engine that runs directly in the browser using WebAssembly and JavaScript.
+### A Modern Web-Based DOOM Engine Powered by WebAssembly
 
-![Banner](docs/DOOM03.png)
+<img src="docs/DOOM03.png" width="100%">
 
----
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)
+![Node.js](https://img.shields.io/badge/Node.js-18+-green?style=for-the-badge&logo=node.js)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-WASM-blue?style=for-the-badge)
+![Express](https://img.shields.io/badge/Express.js-Server-black?style=for-the-badge&logo=express)
+![License](https://img.shields.io/badge/License-BSD-orange?style=for-the-badge)
 
-## ✨ Features
+A browser-based DOOM engine that delivers the classic FPS experience directly inside modern web browsers using JavaScript, HTML5 Canvas, WebAssembly, and Node.js.
 
-- 🎮 Play DOOM directly in a web browser
-- ⚡ Powered by WebAssembly (WASM)
-- 📦 Uses the FreeDoom WAD
-- 🔊 Audio support
-- 🖥️ Responsive fullscreen game canvas
-- 🚀 Lightweight Node.js server
-- 📂 Easy to customize and extend
+</div>
 
 ---
 
-## 📸 Screenshots
+# 📖 Overview
 
-### Game Screen
+This project recreates the classic DOOM gameplay experience inside a web browser without requiring native installation.
+
+The engine loads the FreeDoom WAD, initializes the WebAssembly runtime, renders graphics using HTML5 Canvas, processes keyboard controls, and streams audio in real time.
+
+It demonstrates how legacy native game engines can be deployed as modern browser applications.
+
+---
+
+# ✨ Features
+
+- 🎮 Browser-based DOOM gameplay
+- ⚡ WebAssembly game engine
+- 📦 FreeDoom WAD support
+- 🖥 Fullscreen gameplay
+- 🎵 Audio playback
+- 🎯 Keyboard controls
+- 🚀 Lightweight Express server
+- 🌐 Cross-platform
+- 📱 Responsive interface
+- 🔥 Fast loading
+- 📂 Easy project structure
+- 🔧 Easy customization
+
+---
+
+# 🎥 Gameplay Demo
+
 <p align="center">
-  <img src="docs/DOOM5.png" alt="DOOM Home Screen" width="800">
+
+<a href="docs/DOOM01.mp4">
+
+<img src="docs/DOOM02.png" width="850">
+
+</a>
+
 </p>
+
+> Click the image above to watch the gameplay video.
+
+---
+
+# 📸 Screenshots
+
+## Main Menu
+
 <p align="center">
-  <img src="docs/DOOM02.png" alt="DOOM Home Screen" width="800">
+<img src="docs/DOOM5.png" width="900">
 </p>
+
+---
 
 ## Gameplay
 
 <p align="center">
-  <img src="docs/DOOM01.gif" alt="Gameplay Demo" width="500">
+<img src="docs/DOOM02.png" width="900">
 </p>
-
-### Fullscreen Mode
-
-![](docs/DOOM4.png)
 
 ---
 
-## 🏗️ Project Structure
+## Fullscreen Mode
+
+<p align="center">
+<img src="docs/DOOM4.png" width="900">
+</p>
+
+---
+
+## Animation Preview
+
+<p align="center">
+<img src="docs/DOOM01.gif" width="700">
+</p>
+
+---
+
+# 🏗 Architecture
+
+```
+                Browser
+
+                    │
+
+        HTML / CSS / JavaScript
+
+                    │
+
+             WebAssembly Engine
+
+                    │
+
+          FreeDoom WAD Resources
+
+                    │
+
+           Audio + Graphics Engine
+
+                    │
+
+            HTML5 Canvas Rendering
+```
+
+---
+
+# 📂 Project Structure
 
 ```text
-DOOM/
+DOOM
+│
+├── docs/
+│   ├── DOOM01.mp4
+│   ├── DOOM01.gif
+│   ├── DOOM02.png
+│   ├── DOOM03.png
+│   ├── DOOM04.png
+│   └── DOOM05.png
+│
 ├── public/
 │   ├── engine/
-│   │   └── doom.wasm
 │   ├── game/
-│   │   └── freedoom2.wad
+│   ├── index.html
 │   ├── app.js
 │   ├── sound.js
-│   ├── style.css
-│   └── index.html
-├── server.js
+│   └── style.css
+│
 ├── package.json
+├── server.js
 └── README.md
 ```
 
 ---
 
-## 🚀 Getting Started
+# ⚙ Installation
 
-### Clone Repository
+Clone the repository
 
 ```bash
 git clone https://github.com/sayan08880/DOOM-GAME-ENGINE.git
+```
+
+Open the project
+
+```bash
 cd DOOM-GAME-ENGINE
 ```
 
-### Install Dependencies
+Install dependencies
 
 ```bash
 npm install
 ```
 
-### Start Server
-
-```bash
-node server.js
-```
-
-or
+Start the server
 
 ```bash
 npm start
 ```
 
----
-
-## 🌐 Open in Browser
+Open
 
 ```
 http://localhost:3000
@@ -97,79 +185,92 @@ http://localhost:3000
 
 ---
 
-## 🎮 Controls
+# 🎮 Controls
 
 | Key | Action |
 |------|--------|
 | W | Move Forward |
-| S | Move Backward |
 | A | Turn Left |
+| S | Move Backward |
 | D | Turn Right |
-| Arrow Keys | Movement |
 | Ctrl | Fire |
-| Space | Open Door / Use |
+| Space | Open Door |
 | Shift | Run |
+| Arrow Keys | Navigation |
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠 Technology Stack
 
-- HTML5
-- CSS3
-- JavaScript
-- Node.js
-- Express.js
-- WebAssembly
-- FreeDoom
-
----
-
-## 📦 Requirements
-
-- Node.js 18+
-- Modern Browser
-- npm
+| Technology | Purpose |
+|------------|----------|
+| HTML5 | User Interface |
+| CSS3 | Styling |
+| JavaScript | Client Logic |
+| Node.js | Backend Server |
+| Express.js | HTTP Server |
+| WebAssembly | Game Engine |
+| FreeDoom | Game Assets |
 
 ---
 
-## ⚙️ Future Improvements
+# 🚀 Performance
 
-- Multiplayer Support
-- Save/Load Games
-- Mobile Controls
+- Fast startup
+- Lightweight server
+- Browser rendering
+- Cross-platform support
+- Responsive controls
+- Optimized asset loading
+
+---
+
+# 🛣 Roadmap
+
+- Multiplayer
+- Save Games
+- Touch Controls
+- Gamepad Support
+- Graphics Settings
+- Sound Settings
 - Custom Maps
 - Mod Loader
-- FPS Counter
-- Settings Menu
-- Gamepad Support
+- Multiplayer Lobby
 
 ---
 
-## 📄 License
+# 🤝 Contributing
 
-This project uses **FreeDoom** assets.
+Contributions are welcome.
 
-FreeDoom is distributed under the BSD license.
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push your branch
+5. Open a Pull Request
 
 ---
 
-## 👨‍💻 Author
+# 📄 License
+
+This project uses **FreeDoom** assets released under the BSD License.
+
+---
+
+# 👨‍💻 Author
 
 **Sayan Mahalanabish**
 
-GitHub:
+GitHub
+
 https://github.com/sayan08880
 
 ---
 
-## ⭐ Support
+<div align="center">
 
-If you like this project,
+### ⭐ If you like this project, consider giving it a Star ⭐
 
-⭐ Star the repository
+Made with ❤️ using JavaScript, Node.js and WebAssembly.
 
-🍴 Fork the repository
-
-🐞 Report bugs
-
-💡 Suggest new features
+</div>
