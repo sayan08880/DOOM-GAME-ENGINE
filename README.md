@@ -22,10 +22,10 @@
 
 ### Game Screen
 <p align="center">
-  <img src="docs/DOOM02.png" alt="DOOM Home Screen" width="800">
+  <img src="docs/DOOM5.png" alt="DOOM Home Screen" width="800">
 </p>
 <p align="center">
-  <img src="docs/DOOM5.png" alt="DOOM Home Screen" width="800">
+  <img src="docs/DOOM02.png" alt="DOOM Home Screen" width="800">
 </p>
 
 ## Gameplay
