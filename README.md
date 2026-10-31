@@ -1,4 +1,4 @@
-q<div align="center">
+<div align="center">
 
 # 🎮 WEB GAME
 
